@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>Password Cracker</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <body>
+        <h1>Password Cracker</h1>
+        <form onsubmit="event.preventDefault(); crackPassword()">
+            <label>Please Input A Password:</label>
+            <input placeholder="(a-z, no capitals)" type="text" name="passwordInput" id="passwordInput" required maxLength=5 pattern="[a-z]{1,5}">
+            <button>Get Crackin'</button>
+        </form>
+        
+    </body>
+</html> 
